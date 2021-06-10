@@ -4,6 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "cafecloud",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -12,3 +13,4 @@
     ]
   }
 }
+

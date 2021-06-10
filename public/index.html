@@ -10,29 +10,29 @@
 
     <div class="content">
       <form id="add-cafe-form">
-          <input type="text" name="name" placeholder="Cafe Name">
-          <input type="text" name="city" placeholder="Cafe City">
-          <button>Add Cafe</button>
+        <input type="text" name="name" placeholder="Cafe Name" />
+        <input type="text" name="city" placeholder="Cafe City" />
+        <button>Add Cafe</button>
       </form>
 
       <ul id="cafe-list"></ul>
     </div>
 
-
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
-        apiKey: "AIzaSyDsTF7hqrgPwdPAdYI9yJTc1XJYjuha95A",
-        authDomain: "cloud-cafe-574ae.firebaseapp.com",
-        projectId: "cloud-cafe-574ae",
-        storageBucket: "cloud-cafe-574ae.appspot.com",
-        messagingSenderId: "961716169400",
-        appId: "1:961716169400:web:75c179f6042d764a65e24d",
+        apiKey: "AIzaSyBZN26LZ48HQbX04A6uwZpm4e2JsaQCdwQ",
+        authDomain: "mini-blog-36968.firebaseapp.com",
+        projectId: "mini-blog-36968",
+        storageBucket: "mini-blog-36968.appspot.com",
+        messagingSenderId: "438290882091",
+        appId: "1:438290882091:web:6545c651bbbf94646c946e",
       };
+
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
-      const db=firebase.firestore();
-      db.settings({timestampsInSnapshots: true})
+      const db = firebase.firestore();
+      db.settings({ timestampsInSnapshots: true });
     </script>
     <script src="app.js"></script>
   </body>
